@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
+  outline: 1px solid red;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -10,7 +13,9 @@ body {
 
 main {
   display: flex;
-  flex-direction: column;
+  flex: 1;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 header {
@@ -38,7 +43,7 @@ header {
 
 .card__container {
   display: flex;
-  width: 40vw;
+  width: 50vw;
   background-color: white;
   flex-wrap: wrap;
   margin-left: 3rem;
@@ -56,7 +61,7 @@ header {
   margin: 1rem 0 1rem 0;
 }
 
-.card__container img {
+img {
   width: 100%;
   margin: auto;
   height: auto;
@@ -79,10 +84,13 @@ header {
   margin-bottom: 0.3rem;
 }
 
-/* aside {
-  width: 150px;
-  background-color: red;
-  position: absolute;
-  top: 0;
-  right: 25vw;
-} */
+aside {
+  width: 30vw;
+  padding: 1.4rem;
+  background-color: white;
+  float: right;
+}
+
+aside ul {
+  list-style: none;
+}
