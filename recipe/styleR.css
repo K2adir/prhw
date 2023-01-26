@@ -4,7 +4,12 @@
   margin: 0;
   padding: 0;
   /* outline: 1px solid orange; */
+  font-family: sans-serif;
   font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(209, 209, 209, 0.15);
 }
 
 main {
@@ -44,10 +49,10 @@ img {
 }
 
 th {
-  padding: 0.3rem 1rem;
+  padding: 0.3rem 2rem;
 }
 td {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .container__ingredients h2 {
@@ -56,6 +61,7 @@ td {
 
 .container__ingredients ul {
   padding: 1.5rem 0;
+  list-style-position: inside;
 }
 
 .container__direction h2,
