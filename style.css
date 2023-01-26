@@ -11,12 +11,7 @@ body {
   overflow-x: hidden;
 }
 
-main {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
-}
-
+/* ---------------- nav layout start ---------------- */
 header {
   position: relative;
   margin-bottom: 11rem;
@@ -37,8 +32,17 @@ header {
   width: 8rem;
   height: auto;
 }
+/* ---------------- nav layout end ---------------- */
+/* // */
+/* ---------------- main layout ---------------- */
 
-/* ///// article start */
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+/* ---------------- article start ----------------   */
 
 .card__container {
   display: flex;
@@ -64,9 +68,16 @@ header {
   object-fit: cover;
 }
 
+/* ----- card bottom ----- */
+
 .card__bottom {
   width: 100%;
   margin-top: 1rem;
+}
+
+.card__bottom p {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
 }
 
 .hr__dashed {
@@ -82,11 +93,10 @@ hr {
 span {
   color: red;
 }
-
-.card__bottom p {
-  font-size: 0.8rem;
-  margin-bottom: 0.3rem;
-}
+/* ----- card bottom end ----- */
+/* ---------------- article end ----------------   */
+/* // */
+/* ---------------- aside start ----------------   */
 
 aside {
   width: 25vw;
@@ -110,6 +120,9 @@ aside h3 {
 aside li {
   line-height: 2;
 }
+/* ---------------- aside end ----------------   */
+/* // */
+/* ---------------- footer start ----------------   */
 
 .footer__container {
   display: flex;
