@@ -46,12 +46,12 @@ header {
   background-color: white;
   flex-wrap: wrap;
   margin-left: 3rem;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .card__container h2 {
   font-family: monospace;
-  font-size: 1rem;
+  font-size: 1.2rem;
   align-self: start;
   margin: 1rem 0 1rem 0;
 }
@@ -73,6 +73,10 @@ header {
   border: none;
   border-top: 1px dotted rgb(0, 0, 0, 0.5);
   margin-bottom: 0.3rem;
+}
+
+hr {
+  margin-bottom: 1.5rem;
 }
 
 span {
@@ -109,7 +113,7 @@ aside li {
 
 .footer__container {
   display: flex;
-  margin-top: 2rem;
+  margin: 3rem 0rem;
   justify-content: center;
   gap: 1rem;
 }
