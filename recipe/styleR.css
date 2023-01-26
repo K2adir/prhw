@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   /* outline: 1px solid orange; */
-  font-family: sans-serif;
   font-family: "Poppins", sans-serif;
 }
 
@@ -16,15 +15,12 @@ main {
 header h1 {
   font-size: 3rem;
 }
-
 header p {
   font-size: 1.5rem;
 }
-
 header h6 {
   margin: 0.5rem 0rem;
 }
-
 header button {
   padding: 1rem 2rem;
   color: white;
@@ -37,9 +33,12 @@ article img {
   width: 100%;
 }
 
+img {
+  width: 100%;
+}
+
 .container__table {
   width: 100%;
-
   background: #f5f6ea;
   padding: 3rem 0;
 }
