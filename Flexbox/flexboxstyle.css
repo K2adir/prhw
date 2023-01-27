@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 1px solid red;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+/* nav {
+  gap: 1rem;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+div {
+  align-self: center;
+} */
+.navbar {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* flex-direction: column; */
+}
+
+.navbar > div:nth-child(n + 4) {
+  margin-left: auto;
+}
