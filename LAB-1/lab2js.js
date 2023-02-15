@@ -79,7 +79,7 @@ const favMovies = [
   "Fast and Furious",
 ];
 console.log(favMovies.indexOf("Titanic"));
-favMovies.sort();
+favMovies.sort(); // sort, sorts the array alphabetically
 favMovies.pop(); // removes the last index
 favMovies.push("Guardians of the Galaxy");
 favMovies.reverse(); // reverses index
@@ -93,12 +93,23 @@ console.log(half); // original array hasn't changed.
 console.log(favMovies);
 console.log(favMovies.indexOf("Fast and Furious")); // -1 , means false
 // const prevents reassignment, not modification.
-
-// sort, sorts the array alphabetically
+//
 //
 
 ////////////////////////////////
 // Where is Waldo
+
+const whereIsWaldo = [
+  ["Timmy", "Frank"],
+  "Eggbert",
+  ["Lucinda", "Jacc", "Neff", "Snoop"],
+  ["Petunia", ["Baked Goods", "Waldo"]],
+];
+whereIsWaldo.slice(2, 2);
+console.log(whereIsWaldo);
+whereIsWaldo[1][2] = "No One";
+console.log(whereIsWaldo[3][1][1]);
+
 ////////////////////////////////
 
 ////////////////////////////////
