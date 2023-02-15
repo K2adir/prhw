@@ -105,7 +105,7 @@ const whereIsWaldo = [
   ["Lucinda", "Jacc", "Neff", "Snoop"],
   ["Petunia", ["Baked Goods", "Waldo"]],
 ];
-whereIsWaldo.slice(2, 2);
+whereIsWaldo.slice(1, 1);
 console.log(whereIsWaldo);
 whereIsWaldo[1][2] = "No One";
 console.log(whereIsWaldo[3][1][1]);
@@ -114,6 +114,7 @@ console.log(whereIsWaldo[3][1][1]);
 
 ////////////////////////////////
 //  Excited Kitten
+
 ////////////////////////////////
 
 ////////////////////////////////
