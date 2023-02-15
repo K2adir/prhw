@@ -47,6 +47,12 @@ wolfy.splice(0, 1, "gameboy");
 // Yell at the Ninja Turtles
 ////////////////////////////////
 
+let turtle = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for (let turt of turtle) {
+  turt = turt.toUpperCase();
+  console.log(turt);
+}
+
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
