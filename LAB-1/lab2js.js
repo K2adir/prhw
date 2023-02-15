@@ -107,13 +107,27 @@ const whereIsWaldo = [
 ];
 whereIsWaldo.slice(1, 1);
 console.log(whereIsWaldo);
-whereIsWaldo[1][2] = "No One";
+whereIsWaldo[2][2] = "No One";
 console.log(whereIsWaldo[3][1][1]);
 
 ////////////////////////////////
 
 ////////////////////////////////
 //  Excited Kitten
+
+const kitty = [
+  "human...why you taking pictures of me",
+  "...the catnip made me do it...",
+
+  "..why does the red dot always get away...",
+];
+
+for (let i = 0; i < 21; i++) {
+  const meow = Math.floor(Math.random() * 3);
+  if (i % 2 === 0) {
+    console.log(kitty[meow]);
+  } else console.log("love pet hss");
+}
 
 ////////////////////////////////
 
