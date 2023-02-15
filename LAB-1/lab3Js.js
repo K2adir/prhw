@@ -35,17 +35,17 @@ class Person {
   }
 
   getName() {
-    console.log(this.name);
+    return this.name;
   }
   getAge() {
-    console.log(this.age);
+    return this.age;
   }
   getWeight() {
-    console.log(this.weight);
+    return this.weight;
   }
 
   getHeight() {
-    console.log(this.height);
+    return this.height;
   }
 
   eat() {
@@ -70,3 +70,60 @@ class Person {
     this.hamster.push(hamster);
   }
 }
+const timmy = new Person("Timmy");
+const gus = new Hamster("Gus");
+gus.owner = "Timmy";
+timmy.buyHamster(gus);
+
+for (let i = 0; i < 5; i++) {
+  timmy.ageUp();
+}
+
+for (let i = 0; i < 5; i++) {
+  timmy.eat();
+}
+
+for (let i = 0; i < 5; i++) {
+  timmy.exercise();
+}
+
+for (let i = 0; i < 4; i++) {
+  timmy.ageUp();
+}
+for (let i = 0; i < 6; i++) {
+  timmy.ageUp();
+}
+for (let i = 0; i < 2; i++) {
+  timmy.eat();
+}
+for (let i = 0; i < 2; i++) {
+  timmy.exercise();
+}
+console.log(timmy);
+/// timmy and hamster
+
+//// chef and dinner
+
+class Dinner {
+  constructor(appe, ent, des) {
+    this.appe = appe;
+    this.ent = ent;
+    this.des = des;
+  }
+}
+
+class Chef {
+  cooking(appe, ent, des) {
+    return new Dinner(appe, ent, des);
+  }
+}
+
+const joe = new Chef();
+
+const dinner1 = chef.cooking("food1", "food2", "food3");
+const dinner2 = chef.cooking("food4", "food5", "food6");
+const dinner3 = chef.cooking("food6", "food7", "food8");
+
+console.log(dinner1);
+console.log(dinner2);
+console.log(dinner3);
