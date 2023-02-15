@@ -57,6 +57,46 @@ for (let turt of turtle) {
 // Methods, Revisited
 ////////////////////////////////
 
+const favMovies = [
+  "Jaws",
+  "The Fellowship of the Ring",
+  "Howl's Moving Castle",
+  "Django Unchained",
+  "Cloud Atlas",
+  "The Usual Suspects",
+  "Toy Story",
+  "Conan the Barbarian",
+  "Titanic",
+  "Harry Potter",
+  "Fried Green Tomatoes",
+  "Volver",
+  "Oculus",
+  "Seven",
+  "Black Panther",
+  "Harry Potter",
+  "Imitation of Life",
+  "Snatch",
+  "Fast and Furious",
+];
+console.log(favMovies.indexOf("Titanic"));
+favMovies.sort();
+favMovies.pop(); // removes the last index
+favMovies.push("Guardians of the Galaxy");
+favMovies.reverse(); // reverses index
+favMovies.shift(); // removes first element
+favMovies.unshift("aa"); // will add to 'aa' to index 0;
+const index = favMovies.indexOf("Django Unchained");
+favMovies.splice(index, 1, "Avatar"); // yes it altered
+const mid = Math.ceil(favMovies.length / 2);
+const half = favMovies.slice(mid);
+console.log(half); // original array hasn't changed.
+console.log(favMovies);
+console.log(favMovies.indexOf("Fast and Furious")); // -1 , means false
+// const prevents reassignment, not modification.
+
+// sort, sorts the array alphabetically
+//
+
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
