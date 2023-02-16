@@ -120,9 +120,9 @@ class Chef {
 
 const joe = new Chef();
 
-const dinner1 = chef.cooking("food1", "food2", "food3");
-const dinner2 = chef.cooking("food4", "food5", "food6");
-const dinner3 = chef.cooking("food6", "food7", "food8");
+const dinner1 = Chef.cooking("food1", "food2", "food3");
+const dinner2 = Chef.cooking("food4", "food5", "food6");
+const dinner3 = Chef.cooking("food6", "food7", "food8");
 
 console.log(dinner1);
 console.log(dinner2);
