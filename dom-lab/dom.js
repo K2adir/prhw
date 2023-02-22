@@ -115,9 +115,6 @@ subMenuEl.addEventListener("click", (event) => {
 
   const clickedLink = event.target;
   const mainContent = clickedLink.getAttribute("href");
-  if (mainContent == "/about") {
-    mainInnerText.textContent = "about";
-  } else {
-    mainEl.innerHTML = `<h1>${clickedLink.textContent}</h1>`;
-  }
+
+  mainEl.innerHTML = `<h1>${clickedLink.textContent}</h1>`;
 });
