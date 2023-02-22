@@ -92,3 +92,5 @@ topMenuEl.addEventListener("click", (event) => {
 });
 
 console.log(subMenuEl);
+
+// on part 5.5
